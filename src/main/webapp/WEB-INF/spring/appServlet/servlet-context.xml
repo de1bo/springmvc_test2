@@ -26,7 +26,7 @@
 	<!-- mysql s 2022.02.15 -->
 	<beans:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<beans:property name="url" value="jdbc:mysql://localhost:3306/nct" />  <!-- 포트번호 -->
+		<beans:property name="url" value="jdbc:mysql://localhost:3306/eatja" />  <!-- 포트번호 -->
 		<beans:property name="username" value="root" /> <!-- 아이디 -->
 		<beans:property name="password" value="288016" /> <!-- 비번 -->
 	</beans:bean>
